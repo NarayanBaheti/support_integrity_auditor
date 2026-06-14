@@ -252,8 +252,5 @@ We provide a Streamlit dashboard that implements:
 ---
 
 ## 16. Demo
-* [Demo Video Link](https://youtube.com/)
-* The demo covers:
-  1. Auditing a **Hidden Crisis** (e.g. critical DB failure mislabeled as low priority).
-  2. Auditing a **False Alarm** (e.g. billing question mislabeled as critical priority).
-  3. Auditing an **Adversarial Example** designed to trigger priority mismatch.
+* [Live App](https://supportintegrityauditorgit-mdb97h2zdw5cdtanpneqds.streamlit.app/)
+
