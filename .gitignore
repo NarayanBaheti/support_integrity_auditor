@@ -8,3 +8,4 @@ dossiers/
 data/customer_support_tickets.csv 
 Mars_open_project_2026.pdf 
 test_ticket.json 
+test_model.onnx.data 
