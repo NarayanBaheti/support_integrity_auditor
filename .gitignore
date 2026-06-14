@@ -1,0 +1,10 @@
+venv/ 
+__pycache__/ 
+*.pyc 
+scratch/ 
+test_model.onnx 
+test_model_quant.onnx 
+dossiers/ 
+data/customer_support_tickets.csv 
+Mars_open_project_2026.pdf 
+test_ticket.json 

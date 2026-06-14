@@ -1,0 +1,6 @@
+Ticket_ID,Customer_Name,Customer_Email,Ticket_Subject,Ticket_Description,Issue_Category,Priority_Level,Ticket_Channel,Submission_Date,Resolution_Time_Hours,Assigned_Agent,Satisfaction_Score
+TKT-100000,George Simon,lisastrickland@example.com,Hours of operation - Individual,"Hi Support, Where is your headquarters located? Lay soon message show know main.",General Inquiry,High,Web Form,2025-07-02,43,David Kim,5
+TKT-100001,Scott Thompson,wevans@example.org,Data not syncing - Card,"Hi Support, The application crashes every time I open the settings tab. Speech wall six hour book.",Technical,High,Chat,2025-06-28,41,Elena Rodriguez,5
+TKT-100002,Jennifer Smith,oleonard@example.net,2FA issues - Question,"Hi Support, How do I upgrade to the Enterprise plan? Close stand street wear your her.",Account,High,Web Form,2025-02-05,7,Anya Sharma,5
+TKT-100003,Rachel Bullock,katherine67@example.net,Login failed - Let,"Hi Support, The dashboard is not loading any data, just a spinning wheel. Raise third recently turn.",Technical,Low,Web Form,2025-03-20,41,Anya Sharma,5
+TKT-100004,Thomas Parks DDS,raykelsey@example.com,Refund status - Attention,"Hi Support, I have been trying to update my payment method but it keeps failing. Study talk teach.",Billing,Medium,Email,2025-04-27,40,David Kim,5

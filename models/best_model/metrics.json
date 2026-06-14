@@ -1,0 +1,64 @@
+{
+    "ablation_study": [
+        {
+            "Configuration": "Signal A Only",
+            "Agreement Accuracy": 0.7826,
+            "Macro F1": 0.7511705628045728,
+            "Recall (Mismatched)": 0.8557692307692307
+        },
+        {
+            "Configuration": "Signals A + B",
+            "Agreement Accuracy": 0.8728,
+            "Macro F1": 0.841846563713753,
+            "Recall (Mismatched)": 0.8621794871794872
+        },
+        {
+            "Configuration": "Signals A + B + C",
+            "Agreement Accuracy": 0.9048,
+            "Macro F1": 0.8828073682060527,
+            "Recall (Mismatched)": 0.9447115384615384
+        },
+        {
+            "Configuration": "Fused Consensus (A+B+C+D)",
+            "Agreement Accuracy": 1.0,
+            "Macro F1": 1.0,
+            "Recall (Mismatched)": 1.0
+        }
+    ],
+    "cohens_kappa": {
+        "Signal A (LLM)": {
+            "Signal A (LLM)": 1.0,
+            "Signal B (Cluster)": 0.39256416008415296,
+            "Signal C (Resolution)": 0.023542130484154544,
+            "Signal D (Rule)": -0.013023693604149233
+        },
+        "Signal B (Cluster)": {
+            "Signal A (LLM)": 0.39256416008415307,
+            "Signal B (Cluster)": 1.0,
+            "Signal C (Resolution)": 0.025977278740071053,
+            "Signal D (Rule)": 0.05392961105437699
+        },
+        "Signal C (Resolution)": {
+            "Signal A (LLM)": 0.023542130484154766,
+            "Signal B (Cluster)": 0.025977278740071053,
+            "Signal C (Resolution)": 1.0,
+            "Signal D (Rule)": 0.003736568932132589
+        },
+        "Signal D (Rule)": {
+            "Signal A (LLM)": -0.013023693604149233,
+            "Signal B (Cluster)": 0.05392961105437721,
+            "Signal C (Resolution)": 0.003736568932132589,
+            "Signal D (Rule)": 1.0
+        }
+    },
+    "5fold_cv": {
+        "accuracy": "0.9436 \u00b1 0.0050",
+        "macro_f1": "0.9269 \u00b1 0.0067",
+        "mismatched_recall": "0.9343 \u00b1 0.0221"
+    },
+    "final_verification": {
+        "accuracy": "0.9436 \u00b1 0.0050",
+        "macro_f1": "0.9269 \u00b1 0.0067",
+        "mismatched_recall": "0.9343 \u00b1 0.0221"
+    }
+}
