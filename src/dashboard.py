@@ -122,13 +122,13 @@ def render_page_1_single_ticket():
         if st.button("🟢 Load Example: False Alarm"):
             st.session_state.single_ticket_input = {
                 "ticket_id": "TKT-ADV-ALARM",
-                "subject": "URGENT OUTAGE CRITICAL",
+                "subject": "Feature request - dark mode",
                 "priority": "Critical",
                 "email": "standard_user@outlook.com",
-                "category": "Account",
+                "category": "General Inquiry",
                 "channel": "Web Form",
                 "res_hours": 2.0,
-                "desc": "URGENT! I forgot my account login password. Please send me the reset password link immediately."
+                "desc": "Hi support, I would like to request a dark mode option for the dashboard. Not urgent at all, just a nice to have suggestion when your team gets time."
             }
             st.session_state.single_audit_results = None
             st.rerun()
