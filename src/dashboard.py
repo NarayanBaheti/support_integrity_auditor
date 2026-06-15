@@ -122,13 +122,13 @@ def render_page_1_single_ticket():
         if st.button("🟢 Load Example: False Alarm"):
             st.session_state.single_ticket_input = {
                 "ticket_id": "TKT-ADV-ALARM",
-                "subject": "Feature request - dark mode",
-                "priority": "Critical",
-                "email": "standard_user@outlook.com",
-                "category": "General Inquiry",
-                "channel": "Web Form",
-                "res_hours": 2.0,
-                "desc": "Hi support, I would like to request a dark mode option for the dashboard. Not urgent at all, just a nice to have suggestion when your team gets time."
+                "subject": "Product question - pricing tiers",
+"priority": "High",
+"email": "standard_user@outlook.com",
+"category": "General Inquiry",
+"channel": "Web Form",
+"res_hours": 2.0,
+"desc": "Hi support, how does the team pricing tier work? I would like to know more about the different plans available."
             }
             st.session_state.single_audit_results = None
             st.rerun()
