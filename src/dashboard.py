@@ -122,13 +122,13 @@ def render_page_1_single_ticket():
         if st.button("🟢 Load Example: False Alarm"):
             st.session_state.single_ticket_input = {
                 "ticket_id": "TKT-ADV-ALARM",
-                "subject": "Product question - pricing tiers",
+                "subject": "Product question - Way",
 "priority": "High",
-"email": "standard_user@outlook.com",
+"email": "William.Campbell@tech.io",
 "category": "General Inquiry",
-"channel": "Web Form",
-"res_hours": 2.0,
-"desc": "Hi support, how does the team pricing tier work? I would like to know more about the different plans available."
+"channel": "Chat",
+"res_hours": 9.0,
+"desc": "Hi Support, Do you offer a discount for non-profits? Become general call compare court."
             }
             st.session_state.single_audit_results = None
             st.rerun()
